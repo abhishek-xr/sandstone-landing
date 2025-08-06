@@ -54,7 +54,7 @@ export default function HomePage() {
             
             {/* Primary Heading */}
             <motion.div 
-              className="space-y-12 pt-8 mt-16"
+              className="space-y-8 pt-8 mt-16"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: "easeOut" }}
@@ -91,7 +91,7 @@ export default function HomePage() {
 
             {/* Email Form - always visible */}
             <motion.div
-              className="space-y-6 mt-12"
+              className="space-y-6 mt-8"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.8, ease: "easeOut" }}
